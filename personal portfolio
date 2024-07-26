@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#home {
+    background: url('c:\Users\KIIT\Pictures\Saved Pictures\kiki.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: #fff;
+}
+
+.intro {
+    max-width: 600px;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 2rem 0;
+    text-align: left;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project, .contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.contact-links a {
+    color: #333;
+    font-size: 2rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="c:\Users\KIIT\Pictures\Saved Pictures\kiki.jpg" alt="Profile Photo">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I am a passionate web developer with expertise in creating stunning and functional websites.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, myself Kashyapi Dutta. I'm currently in my third year pursuing B.Tech in Computer Science and Engineering. I'm intent on being a web developer with a knack for creating visually appealing and user-friendly websites. I'm always eager to learn new technologies and improve my skills.</p>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>Education:</p>
+            <ul id="Education">
+            <li>Dhemaji Engineering College:</li>
+            <li>B.Tech in Computer Science and Engineering (2022-2026)</li>
+            <li>Shrimanta Shankar Academy:</li> 
+            <li>High School (2020-2022)</li>
+            <li>Matriculation (2020)</li>
+        </ul>
+    </section>
+
+    <section id="Professional Experience">
+        <h2>Professional Experience</h2>
+        <p>An Intern at Prodigy Infotech</p>
+    </section>
+    <section id="Projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Web Devlopment Projects</h3>
+            <p>Creating web devlopment projects using HTML, CSS and javascript. Designing attractive and visually appealing layout that capture's viewers' attention.</p>
+            <a href="https://github.com/KashyapiDutta/PRODIGY_WD_01.git" target="_blank">View on my GitHub</a>
+        </div>
+      
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via the following platforms:</p>
+        <div class="contact-links">
+            <a href="www.linkedin.com/in/kashyapi-dutta-a42b112b1" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/KashyapiDutta/PRODIGY_WD_01.git" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="email:kashyapidutta4@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
